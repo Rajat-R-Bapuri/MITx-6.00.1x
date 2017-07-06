@@ -8,7 +8,7 @@ endIdx = 0
 maxLen = 0
 
 for i in range(len(s) - 1):
-    if((s[i]) <= (s[i + 1])):
+    if((s[i]) <= (s[i + 1])): # Actual ASCII value comparison can be done using ord(s[i]) <= ord(s[i + 1]) 
         curCounter += 1
         if(curCounter > maxLen):
             maxLen = curCounter
